@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Pages - Daily Writing Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=DM+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Morning <span class="highlight">Pages</span></h1>
+            <div class="stats">
+                <span id="wordCount">0 words</span>
+                <span id="saveStatus"></span>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <div class="entries-sidebar">
+                <h2>Your Entries</h2>
+                <div id="entriesList"></div>
+            </div>
+            <div class="editor-container">
+                <div class="progress-container">
+                    <div id="wordProgress" class="progress-bar"></div>
+                </div>
+                <textarea id="editor" placeholder="Begin your morning pages..."></textarea>
+                <div class="controls">
+                    <div class="credit">
+                        Made to help me write at <a href="https://www.bearlythinking.com/"
+                            target="_blank">BearlyThinking.com</a>
+                    </div>
+                    <div class="buttons">
+                        <button id="clearButton">Save</button>
+                        <button id="downloadButton">Download All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
