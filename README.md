@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Morning Pages
 
 A web application for daily writing practice, inspired by Julia Cameron's morning pages exercise. Write 300 words each morning in a distraction-free environment.
@@ -37,3 +38,7 @@ CC0-1.0 license
 ## Credits
 
 Made by [BearlyThinking.com](https://www.bearlythinking.com/) 
+=======
+# MorningPages
+A webpage to visit every morning and get out 300 words of unfiltered writing. Data is all saved locally and not online.
+>>>>>>> 778659ad1d4c5984deb3b3a7d9e157df76518bc7
