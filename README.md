@@ -32,7 +32,7 @@ This is a pure frontend application using:
 
 ## License
 
-CC0-1.0 license
+CC0-1.0 license 
 
 ## Credits
 
